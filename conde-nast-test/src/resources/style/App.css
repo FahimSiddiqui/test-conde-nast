@@ -1,0 +1,116 @@
+body {
+  background: #f7f7f7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 45em;
+  display: grid;
+  gap: 1em;
+  margin: 3em;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1em;
+  left: 400px;
+  position: relative;
+}
+
+button {
+  background: #17f;
+  color: #fff;
+  font: inherit;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  padding: 0.5em 1.5em;
+}
+
+button:active {
+  background-color: #05b;
+}
+
+input {
+  border: 1px solid #999;
+  border-radius: 3px;
+  font: inherit;
+  padding: 0.5em;
+  outline: none;
+}
+
+input:focus {
+  outline: auto #17f;
+}
+
+.item {
+  padding: 1em;
+  list-style-type: none;
+  border-radius: 6px;
+  margin-bottom: 1em;
+  background: #fff;
+  box-shadow: 0px 2px 6px 2px #0002;
+  width: 1000px;
+  left: 400px;
+  position: relative;
+}
+
+.item .title {
+  font-size: 100%;
+}
+
+.item .description {
+  margin: 1em 0;
+}
+
+.item .thumbnail {
+  float: right;
+  box-shadow: 0px 1px 1px 1px #0002;
+  border-radius: 12px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  height: 180px
+}
+
+.item .meta {
+  font-size: 80%;
+  font-weight: bold;
+  color: #555;
+  margin-top: 10px;
+}
+
+.item .provider-thumbnail {
+  margin-right: 0.5em;
+}
+
+.item .meta > *:not(:last-child) {
+  margin-right: 2em;
+}
+.categoryItem{
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 2px 6px 2px #0002;
+  display: initial;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+.categoryItemHeading {
+  border-radius: 6px;
+  display: initial;
+  margin: 5px;
+  padding: 5px;
+  width: 100px;
+  left: 400px;
+  position: relative;
+}
+.newsName {
+  font-size: xxx-large;
+  text-align: center;
+}
